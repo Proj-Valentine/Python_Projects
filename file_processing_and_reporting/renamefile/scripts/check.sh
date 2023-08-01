@@ -9,6 +9,6 @@ for i in $files; do
         # test if file exist in the desired directory (test -e "..$i")
         if [ -e "..$i" ]; then
                 # append the files to the new file created
-                echo "/home/student-03-2094ea7cf265$i" >> oldFiles.txt
+                echo "home/Python_Projects/file_processing_and_reporting/renamefile$i" >> oldFiles.txt
         fi
 done
