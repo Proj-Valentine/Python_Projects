@@ -31,14 +31,6 @@ This directory houses a script for improving the `process_emails.py` script. It 
 This directory contains scripts to change a coworker's username from "jane" to "jdoe," aligning with the company's naming policy. It includes both bash and Python scripts to handle renaming operations efficiently, such as using `cat`, `grep`, and `cut` commands for file operations, redirecting I/O streams with `>` and `>>` commands, and replacing substrings using Python. The updated files are then organized accordingly. The directory simulate a directory with `data` sub directory containing data files to be renamed and a `script` directory containing the `bash` and `python` scripts.
 
 
-### 2. scripts
-
-## reorganize_dir
- The scripts directory contains some scripts to automate directory organization using `recursions` and `non recursive` techniques. These scripts organize files in folders based on their file extensions
-
-- `pass_w_generator` is a script that generates random passwords based on user supplied lenght. it takes an interger value n and generates a password of lenght n.
-
-
 ## Usage
 
 Each directory contains specific Python scripts related to the described tasks. Before running any script, ensure you have Python installed on your system and meet any additional dependencies mentioned within each script.
