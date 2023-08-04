@@ -10,9 +10,9 @@ This repository contains a collection of Python projects focused on `automating 
 This directory houses Python scripts that automate file processing tasks. The scripts can read from CSV, log, and text files, and generate reports in CSV, text, and HTML formats.
 
 ### log_analysis:
-  - **Description**: This script processes logs from a service called `ticky`, an internal ticketing system. It filters the log data and stores error-related information, including error types and frequencies, and user usage data based on encountered errors and their information. The final processed data is stored in separate CSV files, converted to an html file to report the data in tables on a webserver.
+  - **Description**: This sub-directory contains script that processes logs from a service called `ticky`, an internal ticketing system. It filters the log data and stores error-related information, including error types and frequencies, and user usage data based on encountered errors and their information. The final processed data is stored in separate CSV files, converted to an html file to report the data in tables on a webserver.
   - To run the program, run the `run_log_process_csv_t_html.py` file which uses the `subprocess module` to run both `log_process.py` and `csv_to_html.py` including their command line arguments which have been `supplied` for now.
-  - However, you can run `log_process.p` and `csv_to_html.py` separately: first run `log_process.py` to generate the csv files and run `csv_to_html.py` to generate the corresponding html files. open the html file in any webserver to view reports.
+  - However, you can run `log_process.py` and `csv_to_html.py` separately: first run `log_process.py` to generate the csv files and run `csv_to_html.py` to generate the corresponding html files. open the html file in any webserver to view reports.
 
 ### replace_emailDomain
 
@@ -35,9 +35,9 @@ This directory contains scripts to change a coworker's username from "jane" to "
 
 Each directory contains specific Python scripts related to the described tasks. Before running any script, ensure you have Python installed on your system and meet any additional dependencies mentioned within each script.
 
-Feel free to explore and utilize these Python projects for your file processing and reporting needs. Contributions and feedback are welcome, and we hope these scripts will prove helpful in streamlining your tasks!
+Feel free to explore and utilize these Python projects for your file processing and reporting needs. Contributions and feedback are welcome, and I hope these scripts will prove helpful in streamlining your tasks!
 
-`file path(names)` should / be modified approriately to match your system
+`file path(names)` should / be modified appropriately to match your system
 
 **Note**: Please refer to the individual directories for more detailed instructions on running each script, `parameters` , `*Args` and `return values`.
 
